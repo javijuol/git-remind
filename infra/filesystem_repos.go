@@ -17,8 +17,8 @@ var FilesystemRepos domain.GetReposByPathPattern = func(patterns domain.GetPathP
 			return repos, err2
 		}
 		for _, path := range paths {
-			isDir, _ := isDirectory(path + "/.git")
-			if isDir {
+			pathExists, _ := pathExists(path + "/.git")
+			if pathExists {
 				repos = append(repos, path)
 			}
 		}
@@ -26,10 +26,10 @@ var FilesystemRepos domain.GetReposByPathPattern = func(patterns domain.GetPathP
 	return
 }
 
-func isDirectory(path string) (bool, error) {
-	fileInfo, err := os.Stat(path)
+func pathExists(path string) (bool, error) {
+	_, err := os.Stat(path)
 	if err != nil {
 		return false, err
 	}
-	return fileInfo.IsDir(), err
+	return err == nil, err
 }
