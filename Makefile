@@ -1,4 +1,4 @@
-APP_PACKAGE := github.com/suin/git-remind/app/cli
+APP_PACKAGE := github.com/javijuol/git-remind/app/cli
 APP_NAME := git-remind
 APP_DESCRIPTION := Never forget to git commit and push
 APP_VERSION := $(shell git describe --tag)
