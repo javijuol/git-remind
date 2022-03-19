@@ -1,9 +1,9 @@
 package appservice
 
 import (
-	"github.com/suin/git-remind/app/cli/cliglobalopts"
-	"github.com/suin/git-remind/domain"
-	"github.com/suin/git-remind/infra"
+	"github.com/javijuol/git-remind/app/cli/cliglobalopts"
+	"github.com/javijuol/git-remind/domain"
+	"github.com/javijuol/git-remind/infra"
 )
 
 var GetPathPatterns = domain.NewGetPathPatterns(
