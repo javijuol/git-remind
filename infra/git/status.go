@@ -15,7 +15,7 @@ func Status(path string) (output string, err error) {
 	if err != nil {
 		return
 	}
-	commandOutput, err := exec.Command("git", "status", "-sb").Output()
+	commandOutput, err := exec.Command("git", "status", "-sbuno").Output()
 	if err != nil {
 		return
 	}
