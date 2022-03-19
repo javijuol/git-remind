@@ -29,8 +29,8 @@ changelog:
 brew:
   name: git-remind
   github:
-    owner: suin
-    name: homebrew-suin
+    owner: javijuol
+    name: homebrew-javijuol
   folder: Formula
   homepage: "https://github.com/javijuol/git-remind/"
   description: "Never forget to git commit and push."
