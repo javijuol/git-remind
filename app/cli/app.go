@@ -1,8 +1,8 @@
 package cli
 
 import (
-	"github.com/suin/git-remind/app/cli/cliglobalopts"
-	"github.com/suin/git-remind/app/cli/commands"
+	"github.com/javijuol/git-remind/app/cli/cliglobalopts"
+	"github.com/javijuol/git-remind/app/cli/commands"
 	"github.com/urfave/cli"
 )
 
