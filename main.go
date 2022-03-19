@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/suin/git-remind/app/cli"
+	"github.com/javijuol/git-remind/app/cli"
 	"os"
 )
 
