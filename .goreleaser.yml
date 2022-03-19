@@ -6,9 +6,9 @@ builds:
 - env:
   - CGO_ENABLED=0
 - ldflags:
-  - -X "github.com/suin/git-remind/app/cli.Name=git-remind"
-    -X "github.com/suin/git-remind/app/cli.Description=Never forget to git commit and push"
-    -X "github.com/suin/git-remind/app/cli.Version={{.Version}}"
+  - -X "github.com/javijuol/git-remind/app/cli.Name=git-remind"
+    -X "github.com/javijuol/git-remind/app/cli.Description=Never forget to git commit and push"
+    -X "github.com/javijuol/git-remind/app/cli.Version={{.Version}}"
 archive:
   replacements:
     darwin: Darwin
@@ -32,7 +32,7 @@ brew:
     owner: suin
     name: homebrew-suin
   folder: Formula
-  homepage: "https://github.com/suin/git-remind/"
+  homepage: "https://github.com/javijuol/git-remind/"
   description: "Never forget to git commit and push."
   dependencies:
   - git
