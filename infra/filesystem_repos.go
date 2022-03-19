@@ -1,7 +1,7 @@
 package infra
 
 import (
-	"github.com/suin/git-remind/domain"
+	"github.com/javijuol/git-remind/domain"
 	"os"
 	"path/filepath"
 )
