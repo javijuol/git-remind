@@ -1,8 +1,8 @@
 package infra
 
 import (
-	"github.com/suin/git-remind/domain"
-	"github.com/suin/git-remind/infra/git"
+	"github.com/javijuol/git-remind/domain"
+	"github.com/javijuol/git-remind/infra/git"
 	"strings"
 )
 
